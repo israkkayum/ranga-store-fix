@@ -10,7 +10,6 @@ loadProducts();
 const showProducts = (products) => {
   const allProducts = products.map((pd) => pd);
   for (const product of allProducts) {
-    console.log(product);
     const image = product.image;
     const div = document.createElement("div");
     div.classList.add("product");
@@ -31,6 +30,7 @@ const showProducts = (products) => {
   }
 };
 
+// Show Product Details
 const showDetails = (title, description) =>{
   const modal = document.getElementById("myModal");
   const span = document.getElementsByClassName("close")[0];
@@ -52,6 +52,7 @@ const showDetails = (title, description) =>{
  
 };
 
+// Price Count
 let count = 0;
 const addToCart = (id, price) => {
   count = count + 1;

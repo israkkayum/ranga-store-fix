@@ -29,6 +29,8 @@ body {
   border-radius: 25px;
   margin-left: 25px;
 }
+
+/* All Product CSS */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -52,6 +54,8 @@ body {
   width: 150px;
   height: 150px;
 }
+
+/* Cart CSS */
 .cart {
   width: 350px;
   /* border: 1px solid green; */
